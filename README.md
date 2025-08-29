@@ -33,7 +33,7 @@ dotnet build
 ```
 ### 3.Run and connect to the app
 1. Run The AltTester® Desktop app
-2. Run desired instrumented build
+2. Run desired [instrumented build]((#Available-builds-for-testing))
 3. Configure the IP of the build in order to match the IP of the machine (PC) the Desktop app is running on. (Leave it as default for Desktop/WebGL)
 4. Then press the restart button in the AltTester® dialog and wait until the **Connected to AltTester® Server...** message is displayed in the dialog.
 
