@@ -92,6 +92,6 @@ Unity game was compiled from [provided project](https://github.com/Estoty/qa-eng
 
 > Aleksandrs Baranovskis
 
-[Website](https://anubisdunk.com/cv)
-[Steam](https://steamcommunity.com/id/anubisdunk)
-[Github](https://github.com/AnubisDunk)
+- [Website](https://anubisdunk.com/cv)
+- [Steam](https://steamcommunity.com/id/anubisdunk)
+- [Github](https://github.com/AnubisDunk)
