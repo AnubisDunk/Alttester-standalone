@@ -57,16 +57,22 @@ dotnet test --filter "CountInteractable"
 ## AltTester Unity SDK Package 
 Unity game was compiled from [provided project](https://github.com/Estoty/qa-engineer-test) to several [platforms](#Available-builds-for-testing) with help of [AltTester Unity package](https://alttester.com/docs/sdk/latest/pages/get-started.html#import-alttester-package-in-unity-editor). Generated package with [included tests](#Test-Cases) are located in *Build* folder(AltTester_2_2_5.unitypackage). If needed can be installed into Unity project following the [guide](https://alttester.com/docs/sdk/latest/pages/get-started.html#resolve-dependencies)
 1. Install [QA Engineer Test](https://github.com/Estoty/qa-engineer-test) project
-2. Resolve dependencies 
-    2. Add  ```json 
-        "dependencies": {
-        "com.unity.nuget.newtonsoft-json": "3.1.0", 
-        "com.unity.editorcoroutines": "1.0.0"
-    }
-      "testables": ["com.unity.inputsystem"]
-        ``` 
-        to *manifest.json*    
+2. Add *AltTester_2_2_5.unitypackage* to the Unity project. (*Assets -> Import Package*)
+2. Resolve dependencies to *manifest.json* 
 
+```json 
+{
+  "dependencies": {
+    // other dependencies...
+    "com.unity.nuget.newtonsoft-json": "3.1.0",
+    "com.unity.editorcoroutines": "1.0.0"
+  },
+  "testables": [
+    "com.unity.inputsystem"
+  ]
+}
+```
+3. Now you have AltTester Editor in your Unity project, can run test in Editor
 
 ## Dependencies
 
