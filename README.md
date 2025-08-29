@@ -6,24 +6,20 @@ A C# test automation project using AltTester SDK for Unity game testing.
 
 This project contains automated tests for Unity applications using the AltTester framework. AltTester enables UI testing for Unity games by providing an API to interact with game objects and components.
 
-## Prerequisites
-
-- .NET 9.0 or later
-- Unity application with AltTester integration
-- NUnit testing framework
-
-## Dependencies
-
-- **AltTester Driver**: Unity game testing framework
-- **NUnit**: Unit testing framework for .NET
-
 ## Test Cases
 
 ### Current Tests
 
 1. **CountInteractable**: Verifies that the submit button is interactable
 2. **CountIncreasedAfterClick**: Tests that the counter increases after clicking
-3. **CountAfterXClicks**: Parameterized test that verifies exact count after multiple clicks
+3. **CountAfterXClicks**: Parameterized test that verifies exact count after multiple clicks (10 by default)
+
+## Prerequisites
+
+- [.NET 9.0 or later](https://dotnet.microsoft.com/en-us/download) is installed
+- Unity application with AltTester integration
+- [The AltTester® Desktop](https://alttester.com/downloads/) installed on your PC
+
 
 ## Getting Started
 
@@ -37,6 +33,11 @@ cd Alttester-standalone
 ```bash
 dotnet build
 ```
+### Run and connect to the app
+1. Run The AltTester® Desktop app
+2. Run desired instrumented build
+3. Configure the IP of the build in order to match the IP of the machine (PC) the Desktop app is running on. (Leave it as default for Desktop/WebGL)
+4. Then press the restart button in the AltTester® dialog and wait until the **Connected to AltTester® Server...** message is displayed in the dialog.
 
 ### 3. Run Tests
 ```bash
@@ -50,11 +51,6 @@ dotnet test --filter "CountInteractable"
 dotnet test --logger "console;verbosity=detailed"
 ```
 
-## Configuration
-
-### Connection Settings
-- **Default Port**: 13000 (AltTester default)
-
 ## Troubleshooting
 
 ### Common Issues
@@ -63,6 +59,11 @@ dotnet test --logger "console;verbosity=detailed"
 - Ensure Unity application is running
 - Verify AltTester is properly configured in Unity
 - Check firewall settings
+
+## Dependencies
+
+- **AltTester Driver**: Unity game testing framework
+- **NUnit**: Unit testing framework for .NET
 
 ## Resources
 
