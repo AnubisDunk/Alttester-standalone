@@ -1,10 +1,10 @@
-# AltTester Standalone - QA Engineer test
+# AltTester Standalone - QA Engineer test assignment for [Estoty](https://www.estoty.com/careers/details/?id=junior-qa-engineer)
 
-A C# test automation project using AltTester SDK for Unity game testing.
+A C# standalone test automation project that uses AltTester for Unity game testing.
 
 ## Overview
 
-This project contains automated tests for Unity applications using the AltTester framework. AltTester enables UI testing for Unity games by providing an API to interact with game objects and components.
+This project contains automated tests for a Unity application using the AltTester framework. This is my assignment for the QA Engineer test. Unity game was compiled from [provided project](https://github.com/Estoty/qa-engineer-test) to several [platforms](#Available-builds-for-testing) with help of [AltTester Unity package](https://alttester.com/docs/sdk/latest/pages/get-started.html#import-alttester-package-in-unity-editor).
 
 ## Test Cases
 
@@ -37,6 +37,8 @@ dotnet build
 3. Configure the IP of the build in order to match the IP of the machine (PC) the Desktop app is running on. (Leave it as default for Desktop/WebGL)
 4. Then press the restart button in the AltTester® dialog and wait until the **Connected to AltTester® Server...** message is displayed in the dialog.
 
+**⚠️ Important**: Your game must be connected to AltTester Desktop before running tests!
+
 ### 4. Run Tests
 ```bash
 # Run all tests
@@ -47,19 +49,24 @@ dotnet test --filter "CountInteractable"
 
 ```
 
-## Troubleshooting
-
-### Common Issues
-
-**Connection Timeout**
-- Ensure Unity application is running
-- Verify AltTester is properly configured in Unity
-- Check firewall settings
-
 ## Available builds for testing
 - Windows - Located in *Builds/build_win.rar*
 - Android - Located in *Builds/build_android.apk*
 - [WebGL version](https://anubisdunk.itch.io/qa-test-estoty) - Published on itch.io (Password: *alexQA12#*)
+
+## AltTester Unity SDK Package 
+Unity game was compiled from [provided project](https://github.com/Estoty/qa-engineer-test) to several [platforms](#Available-builds-for-testing) with help of [AltTester Unity package](https://alttester.com/docs/sdk/latest/pages/get-started.html#import-alttester-package-in-unity-editor). Generated package with [included tests](#Test-Cases) are located in *Build* folder(AltTester_2_2_5.unitypackage). If needed can be installed into Unity project following the [guide](https://alttester.com/docs/sdk/latest/pages/get-started.html#resolve-dependencies)
+1. Install [QA Engineer Test](https://github.com/Estoty/qa-engineer-test) project
+2. Resolve dependencies 
+    2. Add  ```json 
+        "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.1.0", 
+        "com.unity.editorcoroutines": "1.0.0"
+    }
+      "testables": ["com.unity.inputsystem"]
+        ``` 
+        to *manifest.json*    
+
 
 ## Dependencies
 
@@ -68,5 +75,6 @@ dotnet test --filter "CountInteractable"
 
 ## Resources
 
+- [QA Engineer Test](https://github.com/Estoty/qa-engineer-test) project was used to build Unity apps
 - [AltTester Documentation](https://alttester.com/docs/)
 - [NUnit Documentation](https://docs.nunit.org/)
