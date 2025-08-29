@@ -58,6 +58,7 @@ dotnet test --filter "CountInteractable"
 
 ## AltTester Unity SDK Package *(Optional)*
 Unity game was compiled from [provided project](https://github.com/Estoty/qa-engineer-test) to several [platforms](#Available-builds-for-testing) with help of [AltTester Unity package](https://alttester.com/docs/sdk/latest/pages/get-started.html#import-alttester-package-in-unity-editor). Generated package with [included tests](#Test-Cases) are located in *Build* folder(AltTester_2_2_5.unitypackage). If needed can be installed into Unity project following the [guide](https://alttester.com/docs/sdk/latest/pages/get-started.html#resolve-dependencies)
+### Setup guide
 1. Install [QA Engineer Test](https://github.com/Estoty/qa-engineer-test) project
 2. Add *AltTester_2_2_5.unitypackage* to the Unity project. (*Assets -> Import Package*)
 2. Resolve dependencies by putting missing ones to *manifest.json* 
