@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Alttester-standalone")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e4e33e82f4cf04202989a570f0f82b9b6aa601c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba565e5d25df6bf4b283875a6e33d62c6071d969")]
 [assembly: System.Reflection.AssemblyProductAttribute("Alttester-standalone")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Alttester-standalone")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

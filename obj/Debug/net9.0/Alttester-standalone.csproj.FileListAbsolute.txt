@@ -94,6 +94,7 @@ D:\Estoty\Alttester-standalone\obj\Debug\net9.0\Alttester-standalone.GeneratedMS
 D:\Estoty\Alttester-standalone\obj\Debug\net9.0\Alttester-standalone.AssemblyInfoInputs.cache
 D:\Estoty\Alttester-standalone\obj\Debug\net9.0\Alttester-standalone.AssemblyInfo.cs
 D:\Estoty\Alttester-standalone\obj\Debug\net9.0\Alttester-standalone.csproj.CoreCompileInputs.cache
+D:\Estoty\Alttester-standalone\obj\Debug\net9.0\Alttester-standalone.sourcelink.json
 D:\Estoty\Alttester-standalone\obj\Debug\net9.0\Altteste.3A7E0E35.Up2Date
 D:\Estoty\Alttester-standalone\obj\Debug\net9.0\Alttester-standalone.dll
 D:\Estoty\Alttester-standalone\obj\Debug\net9.0\refint\Alttester-standalone.dll
