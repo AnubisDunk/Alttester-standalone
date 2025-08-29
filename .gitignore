@@ -1,7 +1,7 @@
 ## .NET Build outputs
-bin/
-obj/
-out/
+bin
+obj
+out
 
 ## .NET Runtime files
 *.dll
