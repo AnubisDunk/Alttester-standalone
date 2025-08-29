@@ -8,8 +8,6 @@ This project contains automated tests for Unity applications using the AltTester
 
 ## Test Cases
 
-### Current Tests
-
 1. **CountInteractable**: Verifies that the submit button is interactable
 2. **CountIncreasedAfterClick**: Tests that the counter increases after clicking
 3. **CountAfterXClicks**: Parameterized test that verifies exact count after multiple clicks (10 by default)
@@ -17,7 +15,7 @@ This project contains automated tests for Unity applications using the AltTester
 ## Prerequisites
 
 - [.NET 9.0 or later](https://dotnet.microsoft.com/en-us/download) is installed
-- Unity application with AltTester integration
+- Unity application with AltTester integration - If you don't have your own use [this](#Available-builds-for-testing)
 - [The AltTester® Desktop](https://alttester.com/downloads/) installed on your PC
 
 
@@ -33,13 +31,13 @@ cd Alttester-standalone
 ```bash
 dotnet build
 ```
-### Run and connect to the app
+### 3.Run and connect to the app
 1. Run The AltTester® Desktop app
 2. Run desired instrumented build
 3. Configure the IP of the build in order to match the IP of the machine (PC) the Desktop app is running on. (Leave it as default for Desktop/WebGL)
 4. Then press the restart button in the AltTester® dialog and wait until the **Connected to AltTester® Server...** message is displayed in the dialog.
 
-### 3. Run Tests
+### 4. Run Tests
 ```bash
 # Run all tests
 dotnet test
@@ -47,8 +45,6 @@ dotnet test
 # Run specific test
 dotnet test --filter "CountInteractable"
 
-# Run with verbose output
-dotnet test --logger "console;verbosity=detailed"
 ```
 
 ## Troubleshooting
@@ -59,6 +55,11 @@ dotnet test --logger "console;verbosity=detailed"
 - Ensure Unity application is running
 - Verify AltTester is properly configured in Unity
 - Check firewall settings
+
+## Available builds for testing
+- Windows - Located in *Builds/build_win.rar*
+- Android - Located in *Builds/build_android.apk*
+- [WebGL version](https://anubisdunk.itch.io/qa-test-estoty) - Published on itch.io (Password: *alexQA12#*)
 
 ## Dependencies
 
