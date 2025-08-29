@@ -21,7 +21,7 @@ This project contains automated tests for a Unity application using the AltTeste
 - [The AltTester® Desktop](https://alttester.com/downloads/) installed on your PC
 
 
-## Getting Started
+## Getting Started (Setup guide)
 
 ### 1. Clone the Repository
 ```bash
