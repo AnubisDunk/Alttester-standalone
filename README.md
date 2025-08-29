@@ -1,10 +1,12 @@
+![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white)
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
 # AltTester Standalone - QA Engineer test assignment for [Estoty](https://www.estoty.com/careers/details/?id=junior-qa-engineer)
 
-A C# standalone test automation project that uses AltTester for Unity game testing.
+This is my assignment for the QA Engineer test - A C# standalone test automation project that uses AltTester for Unity game testing.
 
 ## Overview
 
-This project contains automated tests for a Unity application using the AltTester framework. This is my assignment for the QA Engineer test. Unity game was compiled from [provided project](https://github.com/Estoty/qa-engineer-test) to several [platforms](#Available-builds-for-testing) with help of [AltTester Unity package](https://alttester.com/docs/sdk/latest/pages/get-started.html#import-alttester-package-in-unity-editor).
+This project contains automated tests for a Unity application using the AltTester framework. Unity game was compiled from [provided project](https://github.com/Estoty/qa-engineer-test) to several [platforms](#Available-builds-for-testing) with help of [AltTester Unity package](https://alttester.com/docs/sdk/latest/pages/get-started.html#import-alttester-package-in-unity-editor).
 
 ## Test Cases
 
@@ -84,3 +86,11 @@ Unity game was compiled from [provided project](https://github.com/Estoty/qa-eng
 - [QA Engineer Test](https://github.com/Estoty/qa-engineer-test) project was used to build Unity apps
 - [AltTester Documentation](https://alttester.com/docs/)
 - [NUnit Documentation](https://docs.nunit.org/)
+
+## Authors
+
+> Aleksandrs Baranovskis
+
+[Website](https://anubisdunk.com/cv)
+[Steam](https://steamcommunity.com/id/anubisdunk)
+[Github](https://github.com/AnubisDunk)
