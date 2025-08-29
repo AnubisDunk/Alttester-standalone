@@ -35,7 +35,7 @@ dotnet build
 ```
 ### 3.Run and connect to the app
 1. Run The AltTester® Desktop app
-2. Run desired [instrumented build]((#Available-builds-for-testing))
+2. Run desired [instrumented build](#Available-builds-for-testing)
 3. Configure the IP of the build in order to match the IP of the machine (PC) the Desktop app is running on. (Leave it as default for Desktop/WebGL)
 4. Then press the restart button in the AltTester® dialog and wait until the **Connected to AltTester® Server...** message is displayed in the dialog.
 
@@ -56,7 +56,7 @@ dotnet test --filter "CountInteractable"
 - Android - Located in *Builds/build_android.apk*
 - [WebGL version](https://anubisdunk.itch.io/qa-test-estoty) - Published on itch.io (Password: *alexQA12#*)
 
-## AltTester Unity SDK Package 
+## AltTester Unity SDK Package *(Optional)*
 Unity game was compiled from [provided project](https://github.com/Estoty/qa-engineer-test) to several [platforms](#Available-builds-for-testing) with help of [AltTester Unity package](https://alttester.com/docs/sdk/latest/pages/get-started.html#import-alttester-package-in-unity-editor). Generated package with [included tests](#Test-Cases) are located in *Build* folder(AltTester_2_2_5.unitypackage). If needed can be installed into Unity project following the [guide](https://alttester.com/docs/sdk/latest/pages/get-started.html#resolve-dependencies)
 1. Install [QA Engineer Test](https://github.com/Estoty/qa-engineer-test) project
 2. Add *AltTester_2_2_5.unitypackage* to the Unity project. (*Assets -> Import Package*)
@@ -87,7 +87,7 @@ Unity game was compiled from [provided project](https://github.com/Estoty/qa-eng
 - [AltTester Documentation](https://alttester.com/docs/)
 - [NUnit Documentation](https://docs.nunit.org/)
 
-## Authors
+## Author
 
 > Aleksandrs Baranovskis
 
